@@ -1,6 +1,9 @@
 
 # Character Agent Application for the Pace University Learning Commons
 
+<img width="1365" height="880" alt="Screenshot 2025-08-27 at 2 21 04 PM" src="https://github.com/user-attachments/assets/02bdd093-ec77-4dc3-ad04-722fdcaac5e8" />
+<img width="1356" height="905" alt="Screenshot 2025-08-27 at 2 18 31 PM" src="https://github.com/user-attachments/assets/2011c88c-3227-4843-9de3-805d325e361f" />
+
 ## Prerequisites
 
 - Node.js 18 or higher
