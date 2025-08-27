@@ -29,6 +29,10 @@ Copy `server/.env-sample` to a new file `server/.env` and fill all required vari
 
 ### Install Dependencies and run the application
 
+```bash
+npm install @inworld/runtime
+```
+
 Install dependencies for both server and client:
 
 ```bash
