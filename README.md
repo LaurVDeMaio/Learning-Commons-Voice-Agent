@@ -1,7 +1,5 @@
 
-# Voice Agent Application
-
-This README guides you through setting up and running the Voice Agent application, which demonstrates a simple chat interface with an AI agent that can respond to text and voice inputs.
+# Character Agent Application for the Pace University Learning Commons
 
 ## Prerequisites
 
@@ -9,17 +7,25 @@ This README guides you through setting up and running the Voice Agent applicatio
 
 ## Project Structure
 
-The application consists of two main components:
+The application has two main parts:
 
-- **server**: Handles communication with Inworld's LLM, STT, and TTS services
+- **server**: Manages communication with Inworld's LLM, STT, and TTS services.
 
-- **client**: Provides a user interface for interacting with the AI agent
+- **client**: Provides the user interface for interacting with the AI agent.
 
-## Setup
+## API Key Setup
 
-### Environment Variables
+To get your API key, follow these steps:
 
-Copy `server/.env-sample` to `server/.env` and fill all required variables. Some variables are optional and can be left empty. In this case default values will be used.
+- Log in to your Inworld Studio account.
+
+- Go to the "Integrations" page on the left-hand side.
+
+- Under the "API Keys" section, click "+Generate new key".
+
+- Copy the Basic (Base64) authorization signature.
+
+Copy `server/.env-sample` to a new file `server/.env` and fill all required variables. Some variables are optional and can be commented out to use the default.
 
 ### Install Dependencies and run the application
 
@@ -28,10 +34,10 @@ Install dependencies for both server and client:
 ```bash
 # Install server dependencies
 cd server
-yarn install
+npm install
 
 # Start the server
-yarn start
+npm start
 ```
 
 The server will start on port 4000.
@@ -43,7 +49,7 @@ yarn install
 yarn start
 ```
 
-The client will start on port 3000 and should automatically open in your default browser. It's possible that port 3000 is already in use, so the next available port will be used.
+The client will run on port 3000 and should automatically open in your default browser. If port 3000 is already in use, the next available port will be used.
 
 ## Using the Application
 
@@ -69,10 +75,10 @@ The client will start on port 3000 and should automatically open in your default
 
 ## Troubleshooting
 
-- If you encounter connection issues, ensure both server and client are running. Server should be running on port 4000 and client can be running on port 3000 or any other port.
+- If you have connection issues, make sure both the server (on port 4000) and client are running.
 
-- Don't forget to install the Inworld Runtime from the package or using link to local package for server application. Client application doesn't need to install the framework.
+- The server application requires the Inworld Runtime. Remember to install it from the provided package or a local link. The client does not need this framework.
 
-- Check that your API key is valid and properly set in the .env file.
+- Verify your API key is valid and correctly configured in the .env file.
 
-- For voice input issues, ensure your browser has microphone permissions.
+- For voice input issues, confirm your browser has microphone permissions.
