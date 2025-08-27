@@ -5,14 +5,6 @@
 
 - Node.js 18 or higher
 
-## Project Structure
-
-The application has two main parts:
-
-- **server**: Manages communication with Inworld's LLM, STT, and TTS services.
-
-- **client**: Provides the user interface for interacting with the AI agent.
-
 ## API Key Setup
 
 To get your API key, follow these steps:
