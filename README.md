@@ -17,11 +17,11 @@ The application has two main parts:
 
 To get your API key, follow these steps:
 
-- Log in to your Inworld Studio account.
+- Log in to or create your Inworld Studio account.
 
-- Go to the "Integrations" page on the left-hand side.
+- Go to the "Overview" page on the left-hand side.
 
-- Under the "API Keys" section, click "+Generate new key".
+- Choose the "API Keys" section, click "+Generate new key".
 
 - Copy the Basic (Base64) authorization signature.
 
