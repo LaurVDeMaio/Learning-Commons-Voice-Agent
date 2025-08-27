@@ -23,7 +23,7 @@ export const ConfigView = (props: ConfigViewProps) => {
     <>
       <Box component="form">
         <Typography variant="h3" component="h1" sx={{ m: 1 }}>
-          Voice Agent
+          Welcome to the Pace Learning Common's AI Character Chat System
         </Typography>
         <Card sx={{ mb: 2 }}>
           <CardContent>
