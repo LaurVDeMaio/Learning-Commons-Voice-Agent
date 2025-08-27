@@ -43,7 +43,7 @@ export class InworldApp {
 
     // Initialize the prompt template
     this.promptTemplate = await promises.readFile(
-      path.join(__dirname, '..', '..', '..', 'prompts', 'dialog_prompt.jinja'),
+      path.join(__dirname, '..', '..', 'prompts', 'dialog_prompt.jinja'),
       'utf8',
     );
 
