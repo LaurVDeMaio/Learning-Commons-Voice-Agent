@@ -27,6 +27,7 @@ Copy `server/.env-sample` to a new file `server/.env` and fill all required vari
 Install dependencies in the root folder
 
 ```bash
+npm install
 npm install @inworld/runtime
 ```
 
